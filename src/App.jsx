@@ -14,13 +14,12 @@ function App() {
       if(charAllowed) str += "~`!@#$%^&*()_+{}|:[]\="
     }, [length, numberAllowed, charAllowed, setPassword]);
 
-    };
 
   return (
     <>
       <p className='text-4xl text-center'>Password Generator</p>
     </>
   )
-}
+  }
 
 export default App
